@@ -1,0 +1,42 @@
+{
+  "name": "empty-create-react-app-sample",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "aos": "^2.3.4",
+    "axios": "^0.21.1",
+    "bootstrap": "^5.1.0",
+    "framer-motion": "^4.1.17",
+    "i18n": "^0.13.3",
+    "i18next": "^20.4.0",
+    "i18next-browser-languagedetector": "^6.1.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-i18next": "^11.11.4",
+    "react-icons": "^4.2.0",
+    "react-intl": "^5.20.10",
+    "react-router-dom": "^5.2.1",
+    "react-scripts": "^4.0.3",
+    "styled-components": "^5.3.1",
+    "web-vitals": "^2.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

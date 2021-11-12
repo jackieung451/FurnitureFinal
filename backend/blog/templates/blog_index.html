@@ -1,0 +1,13 @@
+{% load static %}
+
+<h1>Index view of Blog</h1>
+
+{% for blog in blog_posts %}
+
+    <h2>{{ blog.title }}</h2>
+    <br/>
+    <img src="{{ blog.header_image_url }}" alt="" width="600" height="400">
+    <br/>
+
+{% endfor %}
+
